@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: cursive;
+  /* font-size: 62.5%; */
+  line-height: 1.5;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: yellow;
+}
+
+.form {
+  background-color: #fff;
+  padding: 1.5rem;
+  margin: 0.8rem;
+  border-radius: 0.4rem;
+  box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.3);
+}
+
+.score {
+  text-align: end;
+  color: green;
+  font-size: 0.9rem;
+}
+
+.question {
+  font-size: 1.5rem;
+}
+
+.answer {
+  display: block;
+  width: 100%;
+  padding: 0.4rem;
+  border: 4px solid green;
+  text-align: center;
+  color: green;
+  outline: none;
+  font-size: 1.4rem;
+  font-family: cursive;
+  margin: 0.7rem 0;
+}
+.answer::placeholder {
+  color: gray;
+}
+.btn {
+  width: 100%;
+  background: green;
+  /* height: 100%; */
+  padding: 0.7rem;
+  outline: none;
+  border: 0;
+  color: white;
+  border-radius: 0.3rem;
+  font-family: cursive;
+}
+.btn:hover {
+  filter: brightness(0.8);
+}
