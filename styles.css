@@ -31,9 +31,9 @@ body {
 }
 
 .score {
-  text-align: end;
+  text-align: center;
   color: green;
-  font-size: 0.9rem;
+  font-size: 1.4rem;
 }
 
 .question {
