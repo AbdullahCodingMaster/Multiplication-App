@@ -19,7 +19,7 @@ body {
   justify-content: center;
   height: 100vh;
   text-align: center;
-  background-color: yellow;
+  background-color: rgb(165, 165, 4);
 }
 
 .form {
